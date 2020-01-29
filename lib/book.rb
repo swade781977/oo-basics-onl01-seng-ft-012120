@@ -5,7 +5,7 @@ class Book
     @page_count = page_count
     @genre = genre
    end
-   def attr_reader(name)
+   def title(title)
      @name
    end
    def turn_page(page_count)
